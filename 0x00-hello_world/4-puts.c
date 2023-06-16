@@ -7,8 +7,8 @@
 
 int main(void)
 {
-char oracle[] = "\"Programming is like buidling a multilingual puzzle";
-puts(oracle, stderr);
+
+puts("\"Programming is like buidling a multilingual puzzle");
 
 	return (0);
 }
