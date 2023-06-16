@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main - A c program that prints without using printf or puts
  * Return: Always 1 (Success)
