@@ -6,8 +6,8 @@
  */
 
 int main(void)
-{
-	puts(stderr,"\"Programming is like buidling a multilingual puzzle");
+{	char 
+	puts("\"Programming is like buidling a multilingual puzzle \n");
 
 	return (0);
 }
