@@ -1,11 +1,11 @@
-#include <stdio>
-/** main - A program that prints an output
- * Return - 1 (Success)
- */
+#include <stdio.h>
+/**
+ * main - A c program that prints without using printf or puts
+ * Return: Always 1 (Success)
+*/
 
 int main(void)
 {
-	char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-		write(2, message, 59);
-return (1);
+	fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
+	return (1);
 }
