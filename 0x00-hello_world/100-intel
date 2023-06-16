@@ -1,2 +1,2 @@
 #!/bin/bash
-echo '#include <stdio.h>' > temp.c && gcc -S -masm=intel -o output.s temp.c && rm temp.ci
+gcc -S -masm=intel main.c -o main.s
