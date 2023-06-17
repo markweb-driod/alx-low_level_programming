@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there */
 /**
 * main - This file creates random int
@@ -13,12 +14,9 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-{
-	printf("is positive");
-}
-{
+	puts("is positive");
 	if (n < 1)
-		printf("is negative");
-}
+		puts("is negative");
+
 return (0);
 }
