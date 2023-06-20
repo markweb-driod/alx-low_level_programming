@@ -1,20 +1,22 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * main - prints a-z
+ *  Return: Always 1 (Success)
  */
 
 int main(void)
 {
-		char l;
+	char letter;
+
 	for
-		(l = 'a';
-		l <= 'z';);
-	l++;
+		(letter = 'a';
+		 letter <= 'z';
+		 letter++);
 	{
-		putchar(l);
+	putchar(letter);
+	putchar(' ');
 	}
-return (0);
+	putchar('\n');
+	return (0);
 }
