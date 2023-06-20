@@ -1,6 +1,4 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef main.h
+#define main.h
 void print_alphabet(void);
-
-
-#endif /* MAIN_H */
+#endif /* main.h */
