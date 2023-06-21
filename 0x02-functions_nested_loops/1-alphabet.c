@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * main - prints a-z
- *  Return: Always 1 (Success)
+ *  Return: Always 0 (Success)
  */
 
 int main(void)
