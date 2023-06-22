@@ -8,10 +8,10 @@ int main(void)
 int i;
 printf("Infinite loop incoming :(\n");
 i = 0;
-/*while (i < 10)*/
-/*{*/
-/*putchar(i);*/
-/*}*/
+/*while (i < 10)don’t delete it!*/
+/*{don’t delete it!*/
+/*putchar(i);don’t delete it!*/
+/*}don’t delete it!*/
 printf("Infinite loop avoided! \\o/\n");
 return (0);
 }
