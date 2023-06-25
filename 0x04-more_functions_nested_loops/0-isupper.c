@@ -1,24 +1,14 @@
 #include "main.h"
-#include <stdio.h>
-#include <ctype.h>
-
 /**
- * main - check the code.
- *
- * Return: Always 0.
- */
-
-int main(void)
+* _isupper - uppercase let
+*
+* Return: 0 or 1
+*/
+int _isupper(int c)
 {
-	int c  = 'A';
-
-	if (isupper(c))
-	{
-		putchar('1');
-	}
-	else
-	{
-		putchar('0');
-	}
-	return (0);
+if (c >= 'A' && c <= 'Z')
+return (1);
+else
+return (0);
 }
+
