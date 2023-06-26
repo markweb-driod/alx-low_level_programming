@@ -1,13 +1,15 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * main - writing a fucntion that tkes and update value from pointer
  *
  * Return: 1 (Success)
 */
 
-void reset_to_98(int *n)
+void reset_to_98(int *n);
+int main(void)
 {
-*n = 98;
+
+	int *n = 98;
+	return (0);
 }
 
