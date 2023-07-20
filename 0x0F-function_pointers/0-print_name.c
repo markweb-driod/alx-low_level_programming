@@ -5,13 +5,14 @@
  * print_name - prints a name
  * @name: string containing the name
  * @f: pointer to function
- *
+ * Return: nothing
  */
 
-void print_name(char *name, void (*m)(char *))
+void print_name(char *name, void (*f)(char *))
 {
-	if (m != NULL)
+	if (f == NULL || name == NULL)
+		return;
 	{
-		(m) (name);
+		(f) (name);
 	}
 }
